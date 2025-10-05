@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.listItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+.title {
+  color: #000000;
+  font-size: 15px;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  height: 25px;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  color: #ff0b37;
+}
